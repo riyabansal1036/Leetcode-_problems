@@ -17,7 +17,8 @@ class Solution{
                     swap(arr1[j],arr2[i]);
                     j--;
                     }
-                   
+                   else
+                   break;
             }
             sort(arr1, arr1+n);
             sort(arr2, arr2+m);
